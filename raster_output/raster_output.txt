@@ -1,0 +1,1 @@
+In this folder, raster predicted result will be generated.

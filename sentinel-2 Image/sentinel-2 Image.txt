@@ -1,0 +1,1 @@
+After you downloaded jp2 image from Copernicus browser, you need to put those jp2 files in this folder.

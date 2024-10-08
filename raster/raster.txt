@@ -1,0 +1,1 @@
+Raster that have been resample to 10m and bands combined will be export to this folder.
