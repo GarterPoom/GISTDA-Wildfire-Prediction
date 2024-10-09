@@ -1,5 +1,18 @@
 # GISTDA-Wildfire-Prediction
 
+## Prerequisites
+### Anaconda
+You need to download Anaconda at https://www.anaconda.com/download and install. And then you would need to create environment from environment.yml file on your computer.
+
+### Anaconda Environment Prepare
+environment.yml file contain list all the packages and dependencies in the environment, which is need to use for run Sentinel-2 Image Processing Pipeline for Burn Area Detection.
+Environment name: RIDA_env which is name you need to activate environment on your computer.
+
+Environment Prepare step:
+- Open Anaconda Terminal on your computer after you installed.
+- use following command: conda env create -f /path/to/folder/environment.yml
+Example: conda env create -f "D:\Sentinel-2 Environment\environment.yml"
+
 ## Python Modules
 ### Sentinel-2 Image Resampling and Multi-Band Processing Script
 This Python script processes Sentinel-2 imagery by resampling multiple spectral bands to a 10m resolution and then combining them into a single multi-band GeoTIFF file. The script leverages rasterio and GDAL for handling raster files, and it automates the process of finding and processing all relevant .jp2 files in a given folder structure.
