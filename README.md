@@ -10,8 +10,8 @@ Environment name: RIDA_env which is name you need to activate environment on you
 
 Environment Prepare step:
 - Open Anaconda Terminal on your computer after you installed.
-- use following command: conda env create -f /path/to/folder/environment.yml
-Example: conda env create -f "D:\Sentinel-2 Environment\environment.yml"
+- use following command: ```conda env create -f /path/to/folder/environment.yml```
+Example: ```conda env create -f "D:\Sentinel-2 Environment\environment.yml"```
 
 ## Python Modules
 ### Sentinel-2 Image Resampling and Multi-Band Processing Script
